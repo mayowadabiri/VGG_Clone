@@ -1,0 +1,32 @@
+.main__section{
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("../../../images/open-workspace.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom: 0 !important;
+    padding: 60px 0 90px 0 ;
+    /* background-color: greenyellow; */
+    opacity: .8
+}
+.main__section__div{
+    width: 65%;
+    margin: auto;
+}
+.main__title{
+    color: white
+}
+.main__section__subtitle{
+    display: block;
+    width: 100%;
+    /* color: white */
+}
+.section__desc{
+    color: white !important
+}
+.hr{
+    width: 23%;
+    margin: 20px auto;
+    border: 0.7px solid white;
+}
+

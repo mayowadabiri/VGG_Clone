@@ -1,0 +1,22 @@
+.IntroPage__main{
+    background-color: #013444;
+    height: 100vh;
+    position: relative;
+}
+.IntroPage__back{
+    background-image: url("../../images/download.png")
+}
+.IntroPage__main__div{
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+    /* width: 100%; */
+    
+}
+.IntroPage__main__div h2{
+    color: #51b74b;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    width: 60%
+}

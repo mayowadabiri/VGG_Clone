@@ -1,0 +1,9 @@
+.main__title{
+    width: 100%;
+    text-align: center;
+    /* padding-bottom: 4px */
+}
+.main__title__name{
+    font-weight: bold;
+    font-size: 40px
+}

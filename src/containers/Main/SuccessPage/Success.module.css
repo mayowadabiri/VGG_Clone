@@ -1,0 +1,35 @@
+.main__success{
+    padding: 90px 0;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+    display: block;
+}
+
+.success__title{
+    color: #2992d0 !important;
+}
+
+.hr{
+    width: 23%;
+    margin: 20px auto;
+    border: 0.5px solid #2992d0;
+}
+
+.main__section{
+    padding : 0 9.5% !important
+}
+.success__subtitle{
+    width: 80%;
+    margin: 0 auto 19px auto;
+    text-align: left
+}
+.success__img__container{
+    margin-top: 50px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.success__img{
+    height: auto;
+    width: 100%;
+}

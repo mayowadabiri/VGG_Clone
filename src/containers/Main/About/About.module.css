@@ -1,0 +1,23 @@
+.main__section{
+    width: 70%;
+    margin: 0 auto 90px auto;
+    /* margin-bottom: 50px */
+}
+
+.title{
+    color: #2992d0 !important;
+    /* line-height: 3px; */
+}
+
+.subtitle, .desc{
+    width: 80%;
+    margin: 0 auto 4% auto;
+    display: block;
+    /* background-color: rebeccapurple */
+}
+
+.hr{
+    width: 23%;
+    margin: 20px auto;
+    border: 0.5px solid #2992d0;
+}

@@ -1,0 +1,33 @@
+.main__container{
+    background-color: #013444;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.main__container__header{
+    margin: 0 50px;
+    padding: 19px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__image{
+    height: 35px;
+    vertical-align: middle;
+    /* padding: 10px */
+}
+.header__lists{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.header__list{
+    margin: 0 1.5rem
+}
