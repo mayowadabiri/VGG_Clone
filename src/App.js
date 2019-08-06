@@ -6,6 +6,12 @@ import Main from "./containers/Main/Main"
 import Footer from './containers/Footer/Footer';
 
 function App() {
+
+// useEffect(()=>{
+
+//   console.log(window.innerWidth)
+// }, [window.innerWidth])
+  
   return (
     <div >
         <Header />

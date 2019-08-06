@@ -30,3 +30,8 @@
     border: 0.7px solid white;
 }
 
+@media (max-width: 1108px){
+    .main__section{
+        /* padding: 0% */
+    }
+}

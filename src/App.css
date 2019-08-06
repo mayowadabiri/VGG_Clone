@@ -16,3 +16,9 @@
   padding-bottom: 0;
 
 }
+
+@media (max-width: 1108px){
+  .mainpage{
+    margin-bottom: 0
+  }
+}

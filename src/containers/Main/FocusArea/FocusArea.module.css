@@ -12,6 +12,7 @@
     max-width: 396.66px;
     z-index: 10;
     overflow: hidden;
+    margin-left: 20px;
 }
 .main__col__story{
     display: block;
@@ -34,14 +35,14 @@
 .main__col__b{
     height: 100%;
     margin: 20px  25px 0 25px;
-    padding: 0 30px
+    padding: 0 5px
 }
 .main__col__subtitle{
 
 }
 .main__col__text{
     /* padding: 10px 30px 0px 20px; */
-    text-align: justify
+    text-align: left;
 } 
 
 .main__col__topic{
@@ -49,4 +50,18 @@
     color:#ffffff;
     margin-bottom: 8% !important;
     font-size: 20px
+}
+
+@media (max-width: 977px){
+    .main__row{
+        display: block;
+    }
+    .main__col{
+        display: block;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    .main__col__text{
+        /* text-transform: uppercase */
+    }
 }

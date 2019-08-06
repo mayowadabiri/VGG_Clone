@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import styles from "./FocusArea.module.css";
 import Subtitle from "../../../components/Subtitle/Subtitle";
 import Text from "../../../components/Text/Text";
