@@ -9,10 +9,3 @@
 .AnchorLink:hover{
     opacity: 0.8;;
 }
-.AnchorLink:visited{
-    border-bottom: 3px solid blue;
-    /* text-decoration: underline blue; */
-}
-.AnchorLink:focus{
-    border-bottom: 3px solid blue;   
-}

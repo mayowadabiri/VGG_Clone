@@ -6,7 +6,7 @@ import image from "../../../images/image.png"
 
 const Success = ()=> {
     return(
-        <section className={styles.main__success}>
+        <section className={styles.main__success} id="success">
             <div className={styles.main__section}>
                 <Title className={styles.success__title}>Our Success Stories</Title>
                 <hr className={styles.hr}/>

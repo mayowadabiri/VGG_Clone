@@ -7,6 +7,7 @@
 
 .success__title{
     color: #2992d0 !important;
+    width: 100%
 }
 
 .hr{
@@ -32,4 +33,14 @@
 .success__img{
     height: auto;
     width: 100%;
+}
+
+@media (max-width: 977px){
+    .success__title{
+        font-size: 23px
+    }
+    .success__subtitle{
+        text-align: center;
+        width: 100%
+    }
 }

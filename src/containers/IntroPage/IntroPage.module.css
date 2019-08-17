@@ -2,21 +2,38 @@
     background-color: #013444;
     height: 100vh;
     position: relative;
+    width: 100%;
 }
 .IntroPage__back{
     background-image: url("../../images/download.png")
 }
 .IntroPage__main__div{
-    position: absolute;
+    position: absolute; 
     bottom: 120px;
     left: 100px;
-    /* width: 100%; */
+     /* width: 100%; */
     
 }
 .IntroPage__main__div h2{
     color: #51b74b;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 60px;
-    width: 60%
+    width: 60%;
+    /* display: inline-block */
+}
+
+@media (max-width: 977px){
+    .IntroPage__main__div{
+        left: 20px
+    }
+}
+
+@media  (max-height: 500px){
+    .IntroPage__main{
+        height: 800px
+    }
+    .IntroPage__main__div{
+        bottom: 100px
+    }
 }

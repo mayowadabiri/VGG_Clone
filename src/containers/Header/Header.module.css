@@ -32,22 +32,28 @@
 }
 
 .toggle__button {
-    width: 2.5rem;
+    width: 2.2rem;
     background: transparent;
     border: none;
     cursor: pointer;
     background-color: black;
     display: none;
+    padding: 7px
+}
+.toggle-button:active, .toggle__button:visited{
+
 }
 
 .toggle__button:focus {
     outline: none;
+    border: none
 }
 
 .toggle__button__bar {
     /* width: 100%; */
     background: white;
-    margin: 0.4rem 0;
+    padding: 0 5px; 
+    margin: 0.2rem 0;
     color: white !important;
     display: block;
     height: 2px;
@@ -55,7 +61,7 @@
 }
 
 .mobile__nav{
-    display: block;
+    display: none;
     height: auto;
     box-shadow: none;
     background: rgba(0,0,0,.90);
@@ -77,13 +83,11 @@
 .mobile__nav__list a {
     width: 100%;
     margin-right: 20px;
-    display: block
+    display: block;
+    /* text-decoration : underline white */
 }
 .mobile__nav__list a:hover{
     opacity: .8
-}
-.mobile__nav__list a:focus {
-    border-bottom: 3px solid blue;   
 }
 .close__nav{
     display: none;
@@ -95,4 +99,14 @@
     .main__anchor{
         display: none
     }
+    .mobile__nav{
+        display: block
+    }
+}
+
+@media (max-width: 600px){
+    .main__container__header{
+        margin: 0 20px
+    }
+
 }

@@ -10,8 +10,10 @@ import JoinUs from "./JoinUs/JoinUs";
 const Main = ()=>{
     return (
         <div style={{width: "100%", paddingTop: "70px"}}>
+            <div id="about">
             <About />
-            <section className={styles.section__focus}>
+            </div>
+            <section className={styles.section__focus} id="focus">
                 <Title className={styles.section__title}>Focus Areas</Title>
                 <hr className={styles.hr}/>
                 <div className={styles.focus}>

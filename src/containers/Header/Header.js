@@ -1,6 +1,5 @@
-import React, {useReducer, useEffect} from "react";
+import React, {useReducer} from "react";
 import Anchor from "../../components/Anchor/Anchor";
-import Toggle from "../../components/Toggle/Toggle"
 
 import icon from "../../images/logo.png";
 import styles from "./Header.module.css";
@@ -42,7 +41,7 @@ const Header = () =>{
                             <Anchor hrefName="#home">Home </Anchor>
                         </li>
                         <li className={styles.header__list}>
-                            <Anchor hrefName="#aboutus">About Us</Anchor>
+                            <Anchor hrefName="#about">About Us</Anchor>
                         </li>
                         <li className={styles.header__list}>
                             <Anchor hrefName="#focus">Focus Area</Anchor>
@@ -62,7 +61,7 @@ const Header = () =>{
                         <Anchor hrefName="#home">Home </Anchor>
                     </li>
                     <li className={styles.mobile__nav__list}>
-                        <Anchor hrefName="#aboutus">About Us</Anchor>
+                        <Anchor hrefName="#about">About Us</Anchor>
                     </li>
                     <li className={styles.mobile__nav__list}>
                         <Anchor hrefName="#focus">Focus Area</Anchor>

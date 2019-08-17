@@ -9,7 +9,7 @@ import tech from "../../../images/tech.jpg"
 
 const FocusArea = () =>{
     return(
-        <div className={styles.main__row}>
+        <div className={styles.main__row} >
             <div className={styles.main__col}>
                 <p className={styles.main__col__topic}>Knowledge</p>
                 <div className={styles.main__col__story}>

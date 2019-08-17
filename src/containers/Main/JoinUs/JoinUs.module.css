@@ -31,7 +31,10 @@
 }
 
 @media (max-width: 1108px){
-    .main__section{
-        /* padding: 0% */
+    .main__section__div{
+        width: 90%
+    }
+    .section__desc{
+        text-align: center
     }
 }

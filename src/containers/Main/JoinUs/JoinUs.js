@@ -5,7 +5,7 @@ import Subtitle from "../../../components/Subtitle/Subtitle";
 
 const JoinUs = () =>{
     return (
-        <section className={styles.main__section}>
+        <section className={styles.main__section} id="joinus">
             <div className={styles.main__section__div}>
                 <Title className={styles.main__title}>Join Us</Title>
                 <hr className={styles.hr}/>

@@ -65,3 +65,13 @@
         /* text-transform: uppercase */
     }
 }
+
+@media (max-width: 770px){
+    .main__row{
+        margin: 0 20px !important;
+    }
+    .main__col{
+        display: block;
+        width: 100%
+    }
+}

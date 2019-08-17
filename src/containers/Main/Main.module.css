@@ -1,20 +1,21 @@
+
 .section__focus{
     background: linear-gradient(45deg, #2992d0, #51b74b) !important;
     color: #ffffff !important;
     height: 100%;
     padding-top: 70px;
     padding-bottom: 90px
-}
-
-.section__title{
+  }
+  
+  .section__title{
     margin-bottom: 40px
-}
-
-.hr{
+  }
+  
+  .hr{
     width: 23%;
     margin: 20px auto;
     border: 0.5px solid white;
-}
-.focus{
+  }
+  .focus{
     max-width: 100vw
-}
+  }

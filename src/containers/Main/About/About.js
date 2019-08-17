@@ -7,7 +7,7 @@ import styles from "./About.module.css";
 
 const About = () =>{
     return(
-        <section className={styles.main__section} >
+        <section className={styles.main__section}>
             <Title className={styles.title}>About Us</Title>
             <hr className={styles.hr}/>
             <Subtitle className={styles.subtitle}>As a company, we feel a deep sense of purpose and pride in 
